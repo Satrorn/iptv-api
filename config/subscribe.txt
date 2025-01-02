@@ -1,2 +1,3 @@
 # 这是订阅源列表，每行一个订阅地址
 https://loip.fun:88/wlist/list.txt
+http://net.loip.fun:45/txt/2
