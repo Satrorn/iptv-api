@@ -1,4 +1,4 @@
-name: 'Update schedule'
+name: '工作流
 
 on:
   schedule:
