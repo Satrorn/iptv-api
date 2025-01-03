@@ -1,15 +1,12 @@
-# 这是本地订阅源列表，每行一个订阅地址
-http://192.168.2.250:81/wlist/list.txt
+# 白名单+的订阅源列表（注意填入顺序，同时白名单文件需填入相同内容，才能生效），每行一个订阅地址
 http://192.168.2.24:35456/txt/2
+http://192.168.2.250:81/wlist/list.txt
+# 本地订阅源列表，每行一个订阅地址
 http://192.168.2.250:81/My/Gather.txt
 http://192.168.2.250:81/My/Live.txt
 http://192.168.2.250:81/My/MyTV.txt
 http://192.168.2.250:81/My/Sport.txt
 http://192.168.2.250:81/My/Tw1.txt
-http://fyi.loip.fun:45/tv.m3u
-http://itv.loip.fun:45/Sub?type=txt
-http://192.168.2.250:81/t.php?url=https://www.mytvsuper.com.mp/m3u/Live.m3u
-http://192.168.2.250:81/t.php?url=https://aktv.top/live.m3u
 # 这是默认订阅源列表，每行一个订阅地址
 http://192.168.2.250:81/My/mr/l.txt
 http://192.168.2.250:81/My/mr/fmml_dv6.txt
@@ -26,3 +23,5 @@ http://192.168.2.250:81/My/mr/result.m3u
 http://192.168.2.250:81/My/mr/result.txt
 # 这是收集订阅源列表，每行一个订阅地址
 http://192.168.2.250:81/t.php?url=https://live.fanmingming.cn/tv/m3u/ipv6.m3u
+http://192.168.2.250:81/t.php?url=https://www.mytvsuper.com.mp/m3u/Live.m3u
+http://192.168.2.250:81/t.php?url=https://aktv.top/live.m3u
