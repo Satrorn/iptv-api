@@ -1,22 +1,28 @@
-# 这是订阅源列表，每行一个订阅地址
-https://loip.fun:88/wlist/list.txt
-http://net.loip.fun:45/txt/2
-# 这是订阅源列表，每行一个订阅地址
-# This is a list of subscription sources, with one subscription address per line
-https://iptv.b2og.com/txt/fmml_ipv6.txt
-https://ghgo.xyz/raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
-https://live.zbds.top/tv/iptv6.txt
-https://live.zbds.top/tv/iptv4.txt
-https://live.fanmingming.cn/tv/m3u/ipv6.m3u
-https://ghgo.xyz/raw.githubusercontent.com/joevess/IPTV/main/home.m3u8
-https://aktv.top/live.txt
-http://175.178.251.183:6689/live.txt
-https://ghgo.xyz/raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt
-https://m3u.ibert.me/txt/fmml_dv6.txt
-https://m3u.ibert.me/txt/o_cn.txt
-https://m3u.ibert.me/txt/j_iptv.txt
-https://ghgo.xyz/raw.githubusercontent.com/xzw832/cmys/main/S_CCTV.txt
-https://ghgo.xyz/raw.githubusercontent.com/xzw832/cmys/main/S_weishi.txt
-https://ghgo.xyz/raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/l.txt
-https://ghgo.xyz/raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/kk.txt
-https://ghgo.xyz/raw.githubusercontent.com/yuanzl77/IPTV/master/live.txt
+# 这是本地订阅源列表，每行一个订阅地址
+http://192.168.2.250:81/wlist/list.txt
+http://192.168.2.24:35456/txt/2
+http://192.168.2.250:81/My/Gather.txt
+http://192.168.2.250:81/My/Live.txt
+http://192.168.2.250:81/My/MyTV.txt
+http://192.168.2.250:81/My/Sport.txt
+http://192.168.2.250:81/My/Tw1.txt
+http://fyi.loip.fun:45/tv.m3u
+http://itv.loip.fun:45/Sub?type=txt
+http://192.168.2.250:81/t.php?url=https://www.mytvsuper.com.mp/m3u/Live.m3u
+http://192.168.2.250:81/t.php?url=https://aktv.top/live.m3u
+# 这是默认订阅源列表，每行一个订阅地址
+http://192.168.2.250:81/My/mr/l.txt
+http://192.168.2.250:81/My/mr/fmml_dv6.txt
+http://192.168.2.250:81/My/mr/fmml_ipv6.txt
+http://192.168.2.250:81/My/mr/home.m3u8
+http://192.168.2.250:81/My/mr/iptv4.txt
+http://192.168.2.250:81/My/mr/iptv6.txt
+http://192.168.2.250:81/My/mr/ipv6.m3u
+http://192.168.2.250:81/My/mr/j_iptv.txt
+http://192.168.2.250:81/My/mr/live.txt
+http://192.168.2.250:81/My/mr/merged_output.txt
+http://192.168.2.250:81/My/mr/o_cn.txt
+http://192.168.2.250:81/My/mr/result.m3u
+http://192.168.2.250:81/My/mr/result.txt
+# 这是收集订阅源列表，每行一个订阅地址
+http://192.168.2.250:81/t.php?url=https://live.fanmingming.cn/tv/m3u/ipv6.m3u
