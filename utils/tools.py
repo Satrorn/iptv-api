@@ -355,7 +355,7 @@ def convert_to_m3u():
     user_final_file = resource_path(config.final_file)
     if os.path.exists(user_final_file):
         with open(user_final_file, "r", encoding="utf-8") as file:
-            m3u_output = '#EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml"\n'
+            m3u_output = '#EXTM3U x-tvg-url="https://t.loip.fun:44/t.xml"\n'
             current_group = None
             for line in file:
                 trimmed_line = line.strip()
@@ -375,14 +375,14 @@ def convert_to_m3u():
                                       + ("+" if m.group(3) else ""),
                             original_channel_name,
                         )
-                        m3u_output += f'#EXTINF:-1 tvg-name="{processed_channel_name}" tvg-logo="https://live.fanmingming.cn/tv/{processed_channel_name}.png"'
+                        m3u_output += f'#EXTINF:-1 tvg-name="{processed_channel_name}" tvg-logo="https://loip.fun:88/logo/{processed_channel_name}.png"'
                         if current_group:
                             m3u_output += f' group-title="{current_group}"'
                         m3u_output += f",{original_channel_name}\n{channel_link}\n"
             m3u_file_path = os.path.splitext(user_final_file)[0] + ".m3u"
             with open(m3u_file_path, "w", encoding="utf-8") as m3u_file:
                 m3u_file.write(m3u_output)
-            print(f"✅ M3U result file generated at: {m3u_file_path}")
+            print(f"🗣 M3U result file generated at: {m3u_file_path}🥀🥀🥀")
 
 
 def get_result_file_content(show_content=False, file_type=None):
