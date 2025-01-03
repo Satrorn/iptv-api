@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://t.loip.fun:44/t.xml"
-#EXTINF:-1 tvg-name="2025-01-03 17:07:36" tvg-logo="https://loip.fun:88/logo/2025-01-03 17:07:36.png" group-title="🕘️更新时间",2025-01-03 17:07:36
+#EXTINF:-1 tvg-name="2025-01-03 18:20:32" tvg-logo="https://loip.fun:88/logo/2025-01-03 18:20:32.png" group-title="🕘️更新时间",2025-01-03 18:20:32
 http://fys.loip.fun:45/ysptp/cctv8k_36m.m3u8$YSPTP-36M
 #EXTINF:-1 tvg-name="CCTV超高清 8K" tvg-logo="https://loip.fun:88/logo/CCTV超高清 8K.png" group-title="🗣 超清频道",CCTV超高清 8K
 http://fys.loip.fun:45/ysptp/cctv8k_36m.m3u8$YSPTP-36M
