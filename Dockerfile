@@ -43,8 +43,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends cron \
 
 RUN (crontab -l ; \
   echo "0 22 * * * cd $APP_WORKDIR && /.venv/bin/python main.py"; \
-  echo "0 17 * * * cd $APP_WORKDIR && /.venv/bin/python main.py"; \
-  echo "0 10 * * * cd $APP_WORKDIR && /.venv/bin/python main.py") | crontab -
+  echo "0 16 * * * cd $APP_WORKDIR && /.venv/bin/python main.py"; \
+  echo "0 10 * * * cd $APP_WORKDIR && /.venv/bin/python main.py"; \
+  echo "0 4 * * * cd $APP_WORKDIR && /.venv/bin/python main.py") | crontab -
 
 EXPOSE $APP_PORT
 
