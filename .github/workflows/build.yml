@@ -1,4 +1,4 @@
-name: Build and Push Docker Images
+name: 构建
 
 on:
   workflow_dispatch:
